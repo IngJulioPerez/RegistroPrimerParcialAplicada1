@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Nuevo" Name="NuevoBtn" HorizontalAlignment="Left" Margin="158,296,0,0" VerticalAlignment="Top" Height="41" Width="68" Click="NuevoBtn_Click"/>
+        <Button Content="Eliminar" Name="EliminarBtn" HorizontalAlignment="Center" Margin="0,296,0,0" VerticalAlignment="Top" Height="41" Width="66"/>
+        <Button Content="Guardar" Name="GuardarBtn" HorizontalAlignment="Left" Margin="284,296,0,0" VerticalAlignment="Top" Height="41" Width="60" Click="GuardarBtn_Click"/>
+        <Button Content="Buscar" Name="BuscarBtn" HorizontalAlignment="Left" Margin="400,96,0,0" VerticalAlignment="Top" Height="41" Width="68"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,134,0,0" Text="" Name="DescripcionTxt" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,96,0,0" Text="" Name="IdTxt" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,175,0,0" Text="" Name="ExistenciaTxt" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,217,0,0" Text="" Name="CostoTxt" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="192,254,0,0" Text="" Name="ValorInventarioTxt" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Height="25"/>
 
     </Grid>
 </Window>
